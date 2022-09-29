@@ -1,4 +1,4 @@
-# My Website Project <br>(README.md under construction 🚧👷🏼‍♂️🧱🚚!)
+# My Website Project <br>(README.md under construction!) 🚧👷🏼‍♂️🧱🚚!
 
 ## About the Website 💭
 
