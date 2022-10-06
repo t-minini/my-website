@@ -1,0 +1,48 @@
+.helloContainer {
+  /* background-color: aquamarine; */
+  width: 100%;
+  margin: auto 0;
+  height: 100vh;
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  background-image: url("./../../assets/images/hello-background.png");
+  background-size: cover;
+  /* display: flex; */
+}
+.helloContent {
+    margin: 5rem 0;
+}
+
+.helloContainer h2 {
+  padding-left: 90px;
+  font-size: 80px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin: 0;
+  color: rgb(111, 111, 111);
+}
+
+.helloContainer h1 {
+  font-size: 150px;
+  margin: 0;
+  font-family: "Poiret One", cursive;
+  font-weight: lighter;
+  letter-spacing: 25px;
+  padding-left: 90px;
+  /* text-align: center; */
+  /* text-transform: capitalize; */
+}
+
+.helloContainer h3 {
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  font-size: 40px;
+  /* margin-left: 50px; */
+  /* text-align: end; */
+  margin: 0;
+  color: rgb(111, 111, 111);
+  padding-left: 90px;
+
+}

@@ -1,0 +1,35 @@
+.aboutContainer {
+  background-color: gray;
+  height: 80vh;
+  padding: 0 30px;
+  /* margin: 0; */
+}
+
+.aboutContainer h2 {
+  font-size: 120px;
+  letter-spacing: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+
+  /* position:initial; */
+  /* text-align: start; */
+}
+
+.aboutContainer p {
+  font-size: 20px;
+  width: 50%;
+  margin-left: 90px;
+  /* text-align: start; */
+}
+
+.textAndImgContainer {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tulioAvatar {
+  margin-right: 90px;
+  width: 300px;
+  border-radius: 100%;
+}
