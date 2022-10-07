@@ -1,4 +1,5 @@
 import style from "./AboutMe.module.css";
+
 import tulioAvatar from "./../../assets/images/tulio.png";
 
 export function AboutMe() {

@@ -1,25 +1,23 @@
 .aboutContainer {
-  background-color: gray;
+  background-color: rgb(232, 232, 232);
   height: 80vh;
   padding: 0 30px;
-  /* margin: 0; */
 }
 
 .aboutContainer h2 {
   font-size: 120px;
+  line-height: 90px;
+  font-weight: 300;
   letter-spacing: 15px;
   margin: 0;
-  margin-bottom: 10px;
-
-  /* position:initial; */
-  /* text-align: start; */
+  margin-bottom: 60px;
+  color: rgb(146, 146, 146);
 }
 
 .aboutContainer p {
   font-size: 20px;
   width: 50%;
   margin-left: 90px;
-  /* text-align: start; */
 }
 
 .textAndImgContainer {
@@ -28,6 +26,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .tulioAvatar {
   margin-right: 90px;
   width: 300px;
