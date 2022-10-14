@@ -1,0 +1,23 @@
+[
+  {
+    "id": "001",
+    "img": "/images/where-to-go.jpg",
+    "project": "Where to Go?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "link": "https://github.com/t-minini/project-three-front-end"
+  },
+  {
+    "id": "002",
+    "img": "/images/concerts-database.jpg",
+    "project": "Concert's Database",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "link": "https://github.com/t-minini/project-two-react-application"
+  },
+  {
+    "id": "003",
+    "img": "/images/quiz-game.jpg",
+    "project": "Quiz Game",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "link": "https://github.com/t-minini/project-one-the-game"
+  }
+]

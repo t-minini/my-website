@@ -1,7 +1,8 @@
 .skillsContainer {
   background-image: url("./../../assets/images/skills-background.png");
   height: 80vh;
-  background-size: cover;
+  width: 100%;
+  background-size:cover;
 }
 
 .parallax {

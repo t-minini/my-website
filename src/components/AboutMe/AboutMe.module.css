@@ -1,6 +1,7 @@
 .aboutContainer {
   background-color: rgb(232, 232, 232);
   height: 80vh;
+  width: 100%;
   padding: 0 30px;
 }
 

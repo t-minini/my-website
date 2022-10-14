@@ -19,7 +19,7 @@ import materialUIIcon from "./../../assets/images/material-ui-icon.png";
 export function Skills() {
   return (
     <>
-      <div className={style.skillsContainer}>
+      <section className={style.skillsContainer}>
         <h2>Skills</h2>
         <MouseParallaxContainer
           className={style.parallax}
@@ -88,7 +88,7 @@ export function Skills() {
             />
           </MouseParallaxChild>
         </MouseParallaxContainer>
-      </div>
+      </section>
     </>
   );
 }

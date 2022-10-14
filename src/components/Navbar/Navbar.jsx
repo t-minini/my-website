@@ -3,9 +3,11 @@ import style from "./Navbar.module.css";
 export function Navbar() {
   return (
     <>
-      <div className={style.navbarContainer}>
+      <nav className={style.navbarContainer}>
         <div className={style.tm}>
-          <p><span>t</span>m</p>
+          <p>
+            <span className={style.spanT}>  t</span><span className={style.spanM}>m</span> 
+          </p>
         </div>
         <div>
           <ul className={style.navbarList}>
@@ -15,7 +17,7 @@ export function Navbar() {
             <li>Contact Me</li>
           </ul>
         </div>
-      </div>
+      </nav>
     </>
   );
 }

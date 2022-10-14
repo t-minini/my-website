@@ -5,9 +5,9 @@ import tulioAvatar from "./../../assets/images/tulio.png";
 export function AboutMe() {
   return (
     <>
-      <div className={style.aboutContainer}>
+      <section className={style.aboutContainer}>
         <h2>About Me</h2>
-        <div className={style.textAndImgContainer}>
+        <article className={style.textAndImgContainer}>
           <p>
             <span>"</span>Lorem ipsum dolor sit amet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -24,8 +24,8 @@ export function AboutMe() {
             src={tulioAvatar}
             alt="my Memoji"
           />
-        </div>
-      </div>
+        </article>
+      </section>
     </>
   );
 }
