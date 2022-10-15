@@ -10,7 +10,7 @@
   font-weight: 300;
   letter-spacing: 0.9375rem;
   margin: 0;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   color: rgb(185, 185, 185);
 }
 
@@ -22,7 +22,8 @@
 }
 
 .textAndImgContainer {
-  margin: auto;
+  height: 85%;
+  margin: auto auto;
   display: flex;
   align-items: center;
 }
@@ -31,4 +32,102 @@
   width: 19rem;
   border-radius: 100%;
   margin: 0 auto;
+}
+
+/* Fade In Effects  */
+
+.helloFadeInLeft {
+  -webkit-animation: helloFadeInLeft 1.2s both;
+  -moz-animation: helloFadeInLeft 1.2s both;
+  -o-animation: helloFadeInLeft 1.2s both;
+  animation: helloFadeInLeft 1.2s both;
+}
+
+@-webkit-keyframes helloFadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-moz-keyframes helloFadeInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+@-o-keyframes helloFadeInLeft {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+@keyframes helloFadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.helloFadeInRight {
+  -webkit-animation: helloFadeInRight 1.2s both;
+  -moz-animation: helloFadeInRight 1.2s both;
+  -o-animation: helloFadeInRight 1.2s both;
+  animation: helloFadeInRight 1.2s both;
+}
+
+@-webkit-keyframes helloFadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-moz-keyframes helloFadeInRight {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+@-o-keyframes helloFadeInRight {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+@keyframes helloFadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

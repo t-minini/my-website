@@ -7,7 +7,7 @@ export function AboutMe() {
       <section id="aboutMe" className={style.aboutContainer}>
         <h2>About Me</h2>
         <article className={style.textAndImgContainer}>
-          <p>
+          <p className={style.helloFadeInLeft}>
             "Hello, my name is Tulio Minini, a former interior designer who
             discovered his passion for web development. <br />
             <br />
@@ -27,7 +27,7 @@ export function AboutMe() {
             make the world a better place."
           </p>
           <img
-            className={style.tulioAvatar}
+            className={`${style.tulioAvatar} ${style.helloFadeInRight}`}
             src={tulioAvatar}
             alt="my Memoji"
           />

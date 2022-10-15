@@ -10,7 +10,7 @@
   font-weight: 300;
   letter-spacing: 0.9375rem;
   margin: 0;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   color: rgb(185, 185, 185);
 }
 
@@ -48,7 +48,9 @@
 }
 
 .projectsCards {
+  height: 85%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   text-align: center;
 }
