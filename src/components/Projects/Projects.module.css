@@ -1,55 +1,54 @@
 .projectsContainer {
-  background-color: rgb(232, 232, 232);
-  height: 85vh;
-  width: 100%;
+  background-color: rgb(81, 81, 81);
+  height: 90vh;
   padding: 0 30px;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center; */
 }
 
 .projectsContainer h2 {
-  /* margin-left: -10; */
-  font-size: 120px;
-  line-height: 90px;
+  font-size: 9.375rem;
+  line-height: 7.5rem;
   font-weight: 300;
-  letter-spacing: 15px;
+  letter-spacing: 0.9375rem;
   margin: 0;
-  margin-bottom: 60px;
-  color: rgb(146, 146, 146);
+  margin-bottom: 80px;
+  color: rgb(185, 185, 185);
 }
 
 .projects {
-  padding: 0 20px;
-  /* background-color: red; */
+  padding: 0;
+  margin: 0 20px;
 }
 
 .projects img {
   height: 240px;
-  width: 170px;
+  width: 180px;
   border: 2px solid black;
 }
 
 .projects img:hover {
-    /* height: 250px; */
-    /* width: 190px; */
-    border: 3px solid black;
-    opacity: 0.8;
-  }
+  border: 3px solid black;
+  opacity: 0.8;
+}
 
 .projects h3 {
   width: 230px;
-  font-size: 25px;
+  font-size: 1.5625rem;
   margin: 10px 0 10px 0;
+  color: rgb(185, 185, 185);
+  text-align: left;
 }
 
 .projects p {
-  font-size: 15px;
-  width: 180px;
+  font-size: 0.9375rem;
+  margin: 0;
+  width: 250px;
+  color: rgb(162, 162, 162);
+  text-align: left;
+
 }
 
 .projectsCards {
-    display: flex;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
-

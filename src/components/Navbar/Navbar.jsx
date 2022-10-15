@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import style from "./Navbar.module.css";
 
 export function Navbar() {
@@ -5,16 +6,27 @@ export function Navbar() {
     <>
       <nav className={style.navbarContainer}>
         <div className={style.tm}>
-          <p>
-            <span className={style.spanT}>  t</span><span className={style.spanM}>m</span> 
-          </p>
+          <Link to="hello" smooth={true}>
+            <p>
+              <span className={style.spanT}> t</span>
+              <span className={style.spanM}>m</span>
+            </p>
+          </Link>
         </div>
         <div>
           <ul className={style.navbarList}>
-            <li>About Me</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
+            <Link to="aboutMe" smooth={true} offset={-40}>
+              <li>About Me</li>
+            </Link>
+            <Link to="skills" smooth={true} offset={-80}>
+              <li>Skills</li>
+            </Link>
+            <Link to="projects" smooth={true} offset={-40}>
+              <li>Projects</li>
+            </Link>
+            <Link to="contact" smooth={true}>
+              <li>Contact</li>
+            </Link>
           </ul>
         </div>
       </nav>

@@ -19,7 +19,7 @@ import materialUIIcon from "./../../assets/images/material-ui-icon.png";
 export function Skills() {
   return (
     <>
-      <section className={style.skillsContainer}>
+      <section id="skills" className={style.skillsContainer}>
         <h2>Skills</h2>
         <MouseParallaxContainer
           className={style.parallax}
@@ -28,63 +28,85 @@ export function Skills() {
           }}
           resetOnLeave
         >
-          <MouseParallaxChild factorX={0.06} factorY={0.06}>
+          <MouseParallaxChild factorX={0.08} factorY={0.06}>
             <img
               src={reactIcon}
               alt="react js icon"
               className={style.reactIcon}
+              title="ReactJS"
             />
           </MouseParallaxChild>
 
-          <MouseParallaxChild factorX={0.07} factorY={0.09}>
+          <MouseParallaxChild factorX={0.09} factorY={0.09}>
             <img
               src={bootstrapIcon}
               alt="bootstrap icon"
               className={style.bootstrapIcon}
+              title="Bootstrap"
             />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.09} factorY={0.15}>
-            <img src={cssIcon} alt="css icon" className={style.cssIcon} />
+          <MouseParallaxChild factorX={0.13} factorY={0.15}>
+            <img
+              src={cssIcon}
+              alt="css icon"
+              className={style.cssIcon}
+              title="CSS"
+            />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.08} factorY={0.06}>
+          <MouseParallaxChild factorX={0.11} factorY={0.06}>
             <img
               src={expressIcon}
               alt="express js icon"
               className={style.expressIcon}
+              title="ExpressJS"
             />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.07} factorY={0.1}>
-            <img src={htmlIcon} alt="html icon" className={style.htmlIcon} />
+          <MouseParallaxChild factorX={0.10} factorY={0.1}>
+            <img
+              src={htmlIcon}
+              alt="html icon"
+              className={style.htmlIcon}
+              title="HTML"
+            />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.09} factorY={0.13}>
+          <MouseParallaxChild factorX={0.12} factorY={0.13}>
             <img
               src={javaScriptIcon}
               alt="javascript icon"
               className={style.javascriptIcon}
+              title="JavaScript"
             />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.07} factorY={0.09}>
+          <MouseParallaxChild factorX={0.11} factorY={0.09}>
             <img
               src={materialUIIcon}
               alt="material ui icon"
               className={style.materialuiIcon}
+              title="MaterialUI"
             />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.06} factorY={0.15}>
+          <MouseParallaxChild factorX={0.10} factorY={0.15}>
             <img
               src={mongoDBIcon}
               alt="mongo db icon"
               className={style.mongodbIcon}
+              title="MongoDB"
             />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.09} factorY={0.2}>
-            <img src={nodeIcon} alt="node js icon" className={style.nodeIcon} />
+          <MouseParallaxChild factorX={0.13} factorY={0.2}>
+            <img
+              src={nodeIcon}
+              alt="node js icon"
+              className={style.nodeIcon}
+              title="NodeJS"
+            />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.09} factorY={0.18}>
+          <MouseParallaxChild factorX={0.15} factorY={0.18}>
             <img
               src={githubIcon}
               alt="github icon"
               className={style.githubIcon}
+              title="GitHub"
             />
           </MouseParallaxChild>
         </MouseParallaxContainer>

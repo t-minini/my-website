@@ -1,13 +1,12 @@
 .helloContainer {
-  /* background-color: aquamarine; */
-  width: 100%;
   margin: auto 0;
   height: 100vh;
   padding: 30px 30px;
   display: flex;
   align-items: center;
-  background-image: url("./../../assets/images/hello-background.png");
   background-size: cover;
+  background-image: url("./../../assets/images/hello-background.png");
+
 }
 .helloContent {
   margin: 5rem 0;
@@ -15,28 +14,28 @@
 
 .helloContainer h2 {
   padding-left: 90px;
-  font-size: 80px;
-  font-weight: 200;
-  letter-spacing: 2px;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 0.130rem;
   margin: 0;
-  color: rgb(111, 111, 111);
+  color: rgb(89, 89, 89);
 }
 
 .helloContainer h1 {
-  font-size: 150px;
+  font-size: 9.375rem;
   margin: 0;
   font-family: "Poiret One", cursive;
   font-weight: lighter;
-  letter-spacing: 25px;
+  letter-spacing: 1.57rem;
   padding-left: 90px;
 }
 
 .helloContainer h3 {
   font-family: "Poiret One", cursive;
   font-weight: bolder;
-  letter-spacing: 5px;
-  font-size: 40px;
+  letter-spacing: 0.31rem;
+  font-size: 2.5rem;
   margin: 0;
-  color: rgb(111, 111, 111);
+  color: rgb(89, 89, 89);
   padding-left: 90px;
 }

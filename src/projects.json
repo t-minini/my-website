@@ -3,21 +3,21 @@
     "id": "001",
     "img": "/images/where-to-go.jpg",
     "project": "Where to Go?",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "E-commerce in the travel service area, focused on those looking for an experience beyond the standard packages offered by travel agencies.",
     "link": "https://github.com/t-minini/project-three-front-end"
   },
   {
     "id": "002",
     "img": "/images/concerts-database.jpg",
     "project": "Concert's Database",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Website creates to simulate a personal concert database, inspired by my passion for music and live concerts. The goal is to keep track of the shows I've been to.",
     "link": "https://github.com/t-minini/project-two-react-application"
   },
   {
     "id": "003",
     "img": "/images/quiz-game.jpg",
     "project": "Quiz Game",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "My first ever project created. This short quiz game was developed to test the user's knowledge of the Web Development subject and to practice new skills acquired",
     "link": "https://github.com/t-minini/project-one-the-game"
   }
 ]
