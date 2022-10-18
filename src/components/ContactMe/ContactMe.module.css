@@ -1,23 +1,13 @@
 .contactContainer {
   background-image: url("./../../assets/images/contact-me-background.png");
-  height: 50vh;
-  padding: 0 30px;
+  background-size:cover ;
+  height: 25vh;
+  padding: 30px 30px;
 }
 
-.contactContainer h2 {
-  line-height: 7.5rem;
-  text-align: right;
-  font-size: 9.375rem;
-  font-weight: 300;
-  letter-spacing: 0.9375rem;
-  margin: 0;
-  color: rgb(89, 89, 89);
-}
 .contactContent {
-  height: 50%;
   display: flex;
   align-items: center;
-  /* background-color: red; */
 }
 
 .contactContainer p {
@@ -41,5 +31,6 @@
 
 .copyright p {
   text-align: center;
-  margin: 3% auto;
+  margin: auto;
+  margin-top: 40px;
 }

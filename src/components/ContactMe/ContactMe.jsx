@@ -8,7 +8,6 @@ export function ContactMe() {
   return (
     <>
       <footer id="contact" className={style.contactContainer}>
-        <h2>Contact</h2>
         <article className={style.contactContent}>
           <p>
             If you would like to get in touch to discuss a job opportunity,

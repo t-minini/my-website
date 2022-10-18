@@ -1,13 +1,22 @@
 import style from "./AboutMe.module.css";
+import { useInView } from "react-intersection-observer";
 import tulioAvatar from "./../../assets/images/tulio.png";
 
 export function AboutMe() {
+  const { ref: aboutMeRef, inView: aboutMeIsVisible } = useInView();
+  const { ref: aboutMeImgRef, inView: aboutMeImgIsVisible } = useInView();
+
   return (
     <>
       <section id="aboutMe" className={style.aboutContainer}>
-        <h2>About Me</h2>
+        <h2
+          ref={aboutMeRef}
+          className={`${aboutMeIsVisible ? style.helloFadeInLeft : ""}`}
+        >
+          About Me
+        </h2>
         <article className={style.textAndImgContainer}>
-          <p className={style.helloFadeInLeft}>
+          <p className={`${aboutMeImgIsVisible ? style.helloFadeInLeft : ""}`}>
             "Hello, my name is Tulio Minini, a former interior designer who
             discovered his passion for web development. <br />
             <br />
@@ -27,7 +36,10 @@ export function AboutMe() {
             make the world a better place."
           </p>
           <img
-            className={`${style.tulioAvatar} ${style.helloFadeInRight}`}
+            ref={aboutMeImgRef}
+            className={`${style.tulioAvatar} ${
+              aboutMeImgIsVisible ? style.helloFadeInRight : ""
+            }`}
             src={tulioAvatar}
             alt="my Memoji"
           />

@@ -5,16 +5,17 @@
 }
 
 .aboutContainer h2 {
+  visibility: hidden;
   font-size: 9.375rem;
   line-height: 7.5rem;
   font-weight: 300;
   letter-spacing: 0.9375rem;
   margin: 0;
-  /* margin-bottom: 60px; */
   color: rgb(185, 185, 185);
 }
 
 .aboutContainer p {
+  visibility: hidden;
   font-size: 1.3125rem;
   width: 60%;
   margin-left: 90px;
@@ -45,40 +46,48 @@
 
 @-webkit-keyframes helloFadeInLeft {
   0% {
+    visibility: visible;
     opacity: 0;
     -webkit-transform: translateX(-50px);
   }
   100% {
+    visibility: visible;
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 }
 @-moz-keyframes helloFadeInLeft {
   0% {
+    visibility: visible;
     opacity: 0;
     -moz-transform: translateX(-50px);
   }
   100% {
+    visibility: visible;
     opacity: 1;
     -moz-transform: translateX(0);
   }
 }
 @-o-keyframes helloFadeInLeft {
   0% {
+    visibility: visible;
     opacity: 0;
     -o-transform: translateX(-50px);
   }
   100% {
+    visibility: visible;
     opacity: 1;
     -o-transform: translateX(0);
   }
 }
 @keyframes helloFadeInLeft {
   0% {
+    visibility: visible;
     opacity: 0;
     transform: translateX(-50px);
   }
   100% {
+    visibility: visible;
     opacity: 1;
     transform: translateX(0);
   }

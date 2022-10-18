@@ -1,4 +1,5 @@
 import style from "./Skills.module.css";
+import { useInView } from "react-intersection-observer";
 import {
   MouseParallaxContainer,
   MouseParallaxChild,
@@ -17,12 +18,18 @@ import javaScriptIcon from "./../../assets/images/javascript-icon.png";
 import materialUIIcon from "./../../assets/images/material-ui-icon.png";
 
 export function Skills() {
+  const { ref: skillsRef, inView: skillsIsVisible } = useInView();
+
   return (
     <>
       <section id="skills" className={style.skillsContainer}>
-        <h2>Skills</h2>
+        <h2 className={`${skillsIsVisible ? style.skillsFadeInRight : ""}`}>
+          Skills
+        </h2>
         <MouseParallaxContainer
-          className={style.parallax}
+          className={`${style.parallax} ${
+            skillsIsVisible ? style.skillsFadeInLeft : ""
+          }`}
           containerStyles={{
             gridTemplateColumns: "auto auto auto auto auto",
           }}
@@ -39,6 +46,7 @@ export function Skills() {
 
           <MouseParallaxChild factorX={0.09} factorY={0.09}>
             <img
+              ref={skillsRef}
               src={bootstrapIcon}
               alt="bootstrap icon"
               className={style.bootstrapIcon}
@@ -61,7 +69,7 @@ export function Skills() {
               title="ExpressJS"
             />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.10} factorY={0.1}>
+          <MouseParallaxChild factorX={0.1} factorY={0.1}>
             <img
               src={htmlIcon}
               alt="html icon"
@@ -85,7 +93,7 @@ export function Skills() {
               title="MaterialUI"
             />
           </MouseParallaxChild>
-          <MouseParallaxChild factorX={0.10} factorY={0.15}>
+          <MouseParallaxChild factorX={0.1} factorY={0.15}>
             <img
               src={mongoDBIcon}
               alt="mongo db icon"
