@@ -9,13 +9,15 @@ import {
 import cssIcon from "./../../assets/images/css3-icon.png";
 import htmlIcon from "./../../assets/images/html-icon.png";
 import nodeIcon from "./../../assets/images/nodejs-icon.png";
-import githubIcon from "./../../assets/images/github-icon.png";
+import githubIcon from "./../../assets/images/github.svg";
 import mongoDBIcon from "./../../assets/images/mongodb-icon.png";
 import expressIcon from "./../../assets/images/express-js-icon.png";
 import reactIcon from "./../../assets/images/react-native-icon.png";
 import bootstrapIcon from "./../../assets/images/bootstrap-icon.png";
 import javaScriptIcon from "./../../assets/images/javascript-icon.png";
 import materialUIIcon from "./../../assets/images/material-ui-icon.png";
+
+
 
 export function Skills() {
   const { ref: skillsRef, inView: skillsIsVisible } = useInView();

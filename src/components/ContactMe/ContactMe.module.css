@@ -1,8 +1,7 @@
 .contactContainer {
-  background-image: url("./../../assets/images/contact-me-background.png");
-  background-size:cover ;
   height: 25vh;
   padding: 30px 30px;
+  background-color: #274c77;
 }
 
 .contactContent {
@@ -15,7 +14,7 @@
   width: 50%;
   margin-left: 90px;
   margin-top: 40px;
-  color: rgb(89, 89, 89);
+  color: #FFFAFF;
 }
 
 .contactIcons {
@@ -32,5 +31,9 @@
 .copyright p {
   text-align: center;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 1%;
+}
+
+.githubIcon {
+  color: #cfcfcf;
 }

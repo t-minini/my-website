@@ -1,7 +1,8 @@
 .projectsContainer {
-  background-color: rgb(81, 81, 81);
-  height: 90vh;
-  padding: 0 30px;
+  background-color: #fffaff;
+  height: 95vh;
+  /* padding: 0 30px; */
+  width: 100%;
 }
 
 .projectsContainer h2 {
@@ -9,32 +10,33 @@
   font-size: 9.375rem;
   line-height: 7.5rem;
   font-weight: 300;
+  padding-left: 50px;
   letter-spacing: 0.9375rem;
   margin: 0;
-  color: rgb(185, 185, 185);
+  color: #0a2463;
 }
 
 .projects {
-  padding: 0;
+  padding: 20px;
   margin: 0 20px;
+  border: solid 3px #3e92cc;
+}
+
+.projects:hover {
+  box-shadow: 5px 5px 0px #0a2463;
 }
 
 .projects img {
-  height: 240px;
-  width: 180px;
-  border: 2px solid black;
-}
-
-.projects img:hover {
-  border: 3px solid black;
-  opacity: 0.8;
+  height: 20rem;
+  width: 15.625rem;
+  display: block;
 }
 
 .projects h3 {
   width: 230px;
   font-size: 1.5625rem;
   margin: 10px 0 10px 0;
-  color: rgb(185, 185, 185);
+  color: #0a2463;
   text-align: left;
 }
 
@@ -42,7 +44,7 @@
   font-size: 0.9375rem;
   margin: 0;
   width: 250px;
-  color: rgb(162, 162, 162);
+  color: #0a2463;
   text-align: left;
 }
 

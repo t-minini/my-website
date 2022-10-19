@@ -7,6 +7,7 @@
   z-index: 1;
   position: fixed;
   width: 100%;
+  color: #D8315B;
 }
 
 .navbarList {
@@ -21,7 +22,7 @@
 }
 
 .navbarList li:hover {
-  background-color: rgb(232, 232, 232);
+  background-color: #FFFAFF;
   cursor: pointer;
   transition: background 0.9s;
 }

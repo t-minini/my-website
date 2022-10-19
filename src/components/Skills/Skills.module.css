@@ -1,7 +1,7 @@
 .skillsContainer {
-  background-image: url("./../../assets/images/skills-background.png");
+  background-color: #274c77;
   height: 80vh;
-  background-size: cover;
+  width: 100%;
 }
 
 .parallax {
@@ -18,14 +18,14 @@
 
 .skillsContainer h2 {
   visibility: hidden;
-  padding-right: 30px;
+  padding-right: 50px;
   line-height: 7.5rem;
   text-align: right;
   font-size: 9.375rem;
   font-weight: 300;
   letter-spacing: 0.9375rem;
   margin: 0;
-  color: rgb(89, 89, 89);
+  color: #fffaff;
 }
 
 /* Icons  */
