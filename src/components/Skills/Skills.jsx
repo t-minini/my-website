@@ -6,7 +6,7 @@ import {
 } from "react-parallax-mouse";
 
 // Icons
-import node from "./../../assets/images/nodejs.svg"
+import node from "./../../assets/images/nodejs.svg";
 import cssIcon from "./../../assets/images/css3-icon.png";
 import githubIcon from "./../../assets/images/github.svg";
 import htmlIcon from "./../../assets/images/html-icon.png";
@@ -16,8 +16,6 @@ import reactIcon from "./../../assets/images/react-native-icon.png";
 import bootstrapIcon from "./../../assets/images/bootstrap-icon.png";
 import javaScriptIcon from "./../../assets/images/javascript-icon.png";
 import materialUIIcon from "./../../assets/images/material-ui-icon.png";
-
-
 
 export function Skills() {
   const { ref: skillsRef, inView: skillsIsVisible } = useInView();
