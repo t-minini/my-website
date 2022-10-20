@@ -4,20 +4,39 @@
     "img": "/images/where-to-go.jpg",
     "project": "Where to Go?",
     "description": "E-commerce in the travel service area, focused on those looking for an experience beyond the standard packages offered by travel agencies.",
-    "link": "https://github.com/t-minini/project-three-front-end"
+    "github": "https://github.com/t-minini/project-three-front-end",
+    "website": "https://project-three-where-to-go.netlify.app/"
   },
   {
     "id": "002",
     "img": "/images/concerts-database.jpg",
     "project": "Concert's Database",
-    "description": "Website creates to simulate a personal concert database, inspired by my passion for music and live concerts. The goal is to keep track of the shows I've been to.",
-    "link": "https://github.com/t-minini/project-two-react-application"
+    "description": "Website created to simulate a personal concert database, inspired by my passion for music and live concerts. The goal is to keep track of the shows I've been to.",
+    "github": "https://github.com/t-minini/project-two-react-application",
+    "website": "https://concert-database.netlify.app/"
   },
   {
     "id": "003",
     "img": "/images/quiz-game.jpg",
     "project": "Quiz Game",
-    "description": "My first ever project created. This short quiz game was developed to test the user's knowledge of the Web Development subject and to practice new skills acquired",
-    "link": "https://github.com/t-minini/project-one-the-game"
+    "description": "My first ever project created. This short quiz game was developed to test the user's knowledge of the Web Development subject and to practice new skills acquired.",
+    "github": "https://github.com/t-minini/project-one-the-game",
+    "website": "https://t-minini.github.io/project-one-the-game/"
+  },
+  {
+    "id": "004",
+    "img": "/images/quiz-game.jpg",
+    "project": "Quiz Game",
+    "description": "My first ever project created. This short quiz game was developed to test the user's knowledge of the Web Development subject and to practice new skills acquired.",
+    "github": "https://github.com/t-minini/project-one-the-game",
+    "website": "https://t-minini.github.io/project-one-the-game/"
+  },
+  {
+    "id": "005",
+    "img": "/images/quiz-game.jpg",
+    "project": "Quiz Game",
+    "description": "My first ever project created. This short quiz game was developed to test the user's knowledge of the Web Development subject and to practice new skills acquired.",
+    "github": "https://github.com/t-minini/project-one-the-game",
+    "website": "https://t-minini.github.io/project-one-the-game/"
   }
 ]

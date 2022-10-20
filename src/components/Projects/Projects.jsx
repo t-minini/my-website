@@ -2,6 +2,10 @@ import style from "./Projects.module.css";
 import projects from "./../../projects.json";
 import { useInView } from "react-intersection-observer";
 
+// Bootstrap Components
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+
 export function Projects() {
   const { ref: projectsRef, inView: projectsIsVisible } = useInView();
 
@@ -19,12 +23,40 @@ export function Projects() {
         >
           {projects.map((projects) => {
             return (
-              <div className={style.projects} key={projects.id}>
-                <a href={projects.link} target="_blank" rel="noreferrer">
-                  <img src={`${projects.img}`} alt="project" />
-                </a>
-                <h3>{projects.project}</h3>
-                <p>{projects.description}</p>
+              <div>
+                <Card
+                  style={{ width: "21rem", height: "30rem" }}
+                  key={projects.id}
+                  className={style.projectCard}
+                >
+                  <Card.Img variant="top" src={`${projects.img}`} />
+                  <Card.Body>
+                    <Card.Title>{projects.project}</Card.Title>
+                    <Card.Text style={{ height: "7.5em" }}>
+                      {projects.description}
+                    </Card.Text>
+                    <div className={style.cardBtn}>
+                      <a
+                        href={projects.github}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Button className={style.btn} variant="outline-dark">
+                          GitHub
+                        </Button>
+                      </a>
+                      <a
+                        href={projects.website}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Button className={style.btn} variant="outline-primary">
+                          Website
+                        </Button>
+                      </a>
+                    </div>
+                  </Card.Body>
+                </Card>
               </div>
             );
           })}
