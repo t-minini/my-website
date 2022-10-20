@@ -315,5 +315,79 @@
   top: -60px;
   right: 30px;
 }
+}
 
+/* iPhone 13 Pro 390 x 844  */
+
+@media (max-width: 820px) {
+
+  .skillsContainer h2 {
+    margin-top: 5px;
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+    padding-right: 15px;
+  }
+  .parallax {
+    height: 85vh;
+    margin-top: 10px;
+  }
+
+  /* Icons  */
+
+.reactIcon {
+  height: 4rem;
+  bottom: 110px;
+  left: 40px;
+}
+
+.bootstrapIcon {
+  height: 4rem;
+  top: 130px;
+  left: -70px;
+}
+.cssIcon {
+  height: 4.5rem;
+  top: -10px;
+  left: 20px;
+}
+
+.expressIcon {
+  height: 4rem;
+  top: -130px;
+  left: 20px;
+}
+
+.javascriptIcon {
+  height: 4rem;
+  bottom: -30px;
+  left: 30px;
+}
+
+.materialuiIcon {
+  height: 3rem;
+  top: 120px;
+  left: 120px;
+}
+
+.mongodbIcon {
+  height: 3.5rem;
+  bottom: 230px;
+  left: 30px;
+}
+.nodeIcon {
+  height:2rem;
+  top: -100px;
+  right: 90px;
+}
+
+.githubIcon {
+  height: 3.5rem;
+  top: 10px;
+  right: 40px;
+}
+.htmlIcon {
+  height: 4rem;
+  top: 80px;
+  right: 20px;
+}
 }

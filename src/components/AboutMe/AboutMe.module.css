@@ -157,7 +157,6 @@
   .aboutContainer h2 {
     margin-top: 20px;
     font-size: 8.5rem;
-
   }
 
   .aboutContainer p {
@@ -165,11 +164,32 @@
     margin: 0;
     margin-bottom: 120px;
     text-align: justify;
-
   }
 
   .tulioAvatar {
     width: 15rem;
     margin: 0 auto 50px auto;
+  }
+}
+
+/* iPhone 13 Pro 390 x 844  */
+
+@media (max-width: 820px) {
+  .textAndImgContainer {
+    padding: 10px;
+  }
+  .aboutContainer h2 {
+    margin-top: 5px;
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+    padding-left: 15px;
+  }
+  .aboutContainer p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  .tulioAvatar {
+    width: 7rem;
+    margin: 0 auto 20px auto;
   }
 }

@@ -6,10 +6,10 @@ import {
 } from "react-parallax-mouse";
 
 // Icons
+import node from "./../../assets/images/nodejs.svg"
 import cssIcon from "./../../assets/images/css3-icon.png";
-import htmlIcon from "./../../assets/images/html-icon.png";
-import nodeIcon from "./../../assets/images/nodejs-icon.png";
 import githubIcon from "./../../assets/images/github.svg";
+import htmlIcon from "./../../assets/images/html-icon.png";
 import mongoDBIcon from "./../../assets/images/mongodb-icon.png";
 import expressIcon from "./../../assets/images/express-js-icon.png";
 import reactIcon from "./../../assets/images/react-native-icon.png";
@@ -105,7 +105,7 @@ export function Skills() {
           </MouseParallaxChild>
           <MouseParallaxChild factorX={0.13} factorY={0.2}>
             <img
-              src={nodeIcon}
+              src={node}
               alt="node js icon"
               className={style.nodeIcon}
               title="NodeJS"
