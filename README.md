@@ -1,12 +1,10 @@
-# My Website Project <br>(README.md under construction!) 🚧👷🏼‍♂️🧱🚚!
+# My Personal Website Project 
 
-## About the Website 💭
+## About the Project 💭
 
-Website to display my professional information such as resume, projects developed and contact info.
+Website to display my professional information such as resume, skills, projects developed, link to socials and contact info.
 
-## Deploy 📝
-
-You can find the app deploy [here!](link here)
+You can access the website through this [link!](https://tulio-minini-v1.netlify.app/)
 
 ## Tools Used 🛠
 
