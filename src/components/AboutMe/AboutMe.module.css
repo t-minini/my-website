@@ -155,7 +155,8 @@
   }
 
   .aboutContainer h2 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    line-height: 10rem;
     font-size: 8.5rem;
   }
 

@@ -176,13 +176,14 @@
   }
   .projectsContainer h2 {
     padding-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    line-height: 10rem;
     font-size: 8.5rem;
   }
 
   .projects img {
-    height: 15rem;
-    width: 12rem;
+    height: 14rem;
+    width: 11rem;
     margin: auto;
   }
 
@@ -190,7 +191,9 @@
     height: 400px;
     width: 250px;
     padding: 20px;
+    /* padding-top: 0; */
     margin: 15px;
+    margin-top: 0;
   }
 
   .projects p {
