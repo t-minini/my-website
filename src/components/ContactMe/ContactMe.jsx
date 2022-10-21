@@ -3,6 +3,8 @@ import style from "./ContactMe.module.css";
 import gmail from "./../../assets/images/gmail.svg";
 import github from "./../../assets/images/github.svg";
 import linkedin from "./../../assets/images/linkedin.svg";
+import downloadCv from "./../../assets/images/download-cv.png";
+import cvPdf from "./../../assets/resume/tulio-minini-cv-en-gb-br.pdf";
 
 export function ContactMe() {
   return (
@@ -21,6 +23,7 @@ export function ContactMe() {
               href="mailto:tulio.mminini@gmail.com"
               target={"_blank"}
               rel="noreferrer"
+              title="Send an e-mail"
             >
               <img src={gmail} alt="gmail logo" />
             </a>
@@ -28,6 +31,7 @@ export function ContactMe() {
               href="https://www.linkedin.com/in/tulio-minini/"
               target={"_blank"}
               rel="noreferrer"
+              title="LinkedIn Profile"
             >
               <img src={linkedin} alt="linkedin logo" />
             </a>
@@ -35,8 +39,12 @@ export function ContactMe() {
               href="https://github.com/t-minini"
               target={"_blank"}
               rel="noreferrer"
+              title="GitHub Profile"
             >
               <img src={github} alt="github logo" />
+            </a>
+            <a href={cvPdf} download target={"_blank"} rel="noreferrer" title="Download CV">
+              <img src={downloadCv} alt="cv download icon" />
             </a>
           </figure>
         </article>

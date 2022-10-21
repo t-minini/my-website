@@ -23,10 +23,9 @@ export function Projects() {
         >
           {projects.map((projects) => {
             return (
-              <div>
+              <div key={projects.id}>
                 <Card
                   style={{ width: "21rem", height: "30rem" }}
-                  key={projects.id}
                   className={style.projectCard}
                 >
                   <Card.Img variant="top" src={`${projects.img}`} />

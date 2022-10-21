@@ -1,7 +1,7 @@
 import style from "./App.module.css";
 
 import { Hello } from "./components/Hello/Hello";
-import { Navbar } from "./components/Navbar/Navbar";
+import { NavbarTm } from "./components/Navbar/Navbar";
 import { Skills } from "./components/Skills/Skills";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Projects } from "./components/Projects/Projects";
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className={style.page}>
-        <Navbar />
+        <NavbarTm />
         <Hello />
         <AboutMe />
         <Skills />

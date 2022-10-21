@@ -25,17 +25,9 @@
   },
   {
     "id": "004",
-    "img": "/images/quiz-game.jpg",
-    "project": "Quiz Game",
-    "description": "My first ever project created. This short quiz game was developed to test the user's knowledge of the Web Development subject and to practice new skills acquired.",
-    "github": "https://github.com/t-minini/project-one-the-game",
-    "website": "https://t-minini.github.io/project-one-the-game/"
-  },
-  {
-    "id": "005",
-    "img": "/images/quiz-game.jpg",
-    "project": "Quiz Game",
-    "description": "My first ever project created. This short quiz game was developed to test the user's knowledge of the Web Development subject and to practice new skills acquired.",
+    "img": "/images/tindog.jpg",
+    "project": "Tindog",
+    "description": "Landpage created to promote a fake dating app where dog owners can find a partner for their pet dog.",
     "github": "https://github.com/t-minini/project-one-the-game",
     "website": "https://t-minini.github.io/project-one-the-game/"
   }
