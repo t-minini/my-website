@@ -10,11 +10,12 @@ export function ContactMe() {
       <footer id="contact" className={style.contactContainer}>
         <article className={style.contactContent}>
           <p>
-            "If you would like to get in touch to discuss a job opportunity,
-            or which saga is better - Star Wars or Star Trek, or even exchange
-            cats memes, feel free to contact me through my email or profiles on
+            "If you would like to get in touch to discuss a job opportunity, or
+            which saga is better - Star Wars or Star Trek, or even exchange cats
+            memes, feel free to contact me through my email or profiles on
             LinkedIn and GitHub.""
           </p>
+
           <figure className={style.contactIcons}>
             <a
               href="mailto:tulio.mminini@gmail.com"

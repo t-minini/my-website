@@ -4,37 +4,29 @@
   background-color: #274c77;
 }
 
-.contactContent {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
-
-.contactContainer p {
+.contactContent p {
   font-size: 1.3125rem;
+  text-align: center;
   width: 70%;
-  /* margin-left: 90px; */
-  margin-top: 40px;
+  margin: 0px auto;
   color: #fffaff;
 }
 
 .contactIcons {
-  display: flex;
-  justify-content: center;
-  width: 50%;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .contactIcons img {
-  width: 50px;
-  padding: 0 40px;
+  width: 40px;
+  margin: 0 20px;
 }
 
 .copyright p {
   text-align: center;
   margin: auto;
   margin-top: 1%;
+  color: #fffaff;
 }
 
 .githubIcon {
@@ -45,8 +37,8 @@
 
 @media (max-width: 820px) {
   .contactContainer {
-    height: 20vh;
-    padding: 35px 30px;
+    height: fit-content;
+    padding: 35px 25px;
   }
   .contactContent {
     flex-wrap: wrap;
@@ -58,6 +50,8 @@
   .contactContainer p {
     margin: 0px;
     width: 90%;
+    margin: 0px auto;
+    font-size: 1rem;
   }
 
   .copyright p {
@@ -74,17 +68,19 @@
 
 @media (max-width: 390px) {
   .contactContainer {
-    height: 25vh;
+    height: fit-content;
     padding: 25px 20px;
   }
   .contactContainer p {
-    font-size: 0.9rem;
-    margin: 0px;
+    font-size: 0.6rem;
+    margin: 0px auto;
     width: 95%;
   }
 
+  .contactIcons {
+margin: 15px 0;
+  }
   .contactIcons img {
     width: 30px;
-    padding: 0 20px;
   }
 }

@@ -1,6 +1,7 @@
 .aboutContainer {
   background-color: #fffaff;
-  height: 90vh;
+  height: fit-content;
+  padding: 0 0 45px 40px;
   width: 100%;
 }
 
@@ -9,7 +10,6 @@
   font-size: 9.375rem;
   line-height: 7.5rem;
   font-weight: 300;
-  padding-left: 50px;
   letter-spacing: 0.9375rem;
   margin: 0;
   color: #0a2463;
@@ -19,13 +19,14 @@
   visibility: hidden;
   font-size: 1.3125rem;
   width: 60%;
-  margin-left: 90px;
+  margin-left: 50px;
+  margin-bottom: 0;
   color: #0a2463;
 }
 
 .textAndImgContainer {
   height: 85%;
-  margin: auto auto;
+  margin: 40px auto 0 auto;
   display: flex;
   align-items: center;
 }
@@ -146,11 +147,11 @@
 
 @media (max-width: 820px) {
   .aboutContainer {
-    height: 95vh;
+    height: fit-content;
+    padding: 10px;
   }
 
   .textAndImgContainer {
-    padding: 30px;
     flex-direction: column-reverse;
   }
 
@@ -163,7 +164,7 @@
   .aboutContainer p {
     width: 90%;
     margin: 0;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     text-align: justify;
   }
 
@@ -176,18 +177,21 @@
 /* iPhone 13 Pro 390 x 844  */
 
 @media (max-width: 390px) {
-  .textAndImgContainer {
+  .aboutContainer {
+    height: fit-content;
     padding: 10px;
   }
+  .textAndImgContainer {
+   margin-top: 20px;
+  }
   .aboutContainer h2 {
-    margin-top: 5px;
     line-height: 3.5rem;
     font-size: 3.5rem;
-    padding-left: 15px;
+    text-align: center;
   }
   .aboutContainer p {
     font-size: 1rem;
-    margin-bottom: 0px;
+    margin-bottom:10px;
   }
   .tulioAvatar {
     width: 7rem;

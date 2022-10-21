@@ -15,16 +15,16 @@ export function Navbar() {
         </div>
         <div>
           <ul className={style.navbarList}>
-            <Link to="aboutMe" smooth={true} offset={-60}>
+            <Link to="aboutMe" smooth={true} offset={-50}>
               <li>About Me</li>
             </Link>
-            <Link to="skills" smooth={true} offset={-60}>
+            <Link to="skills" smooth={true} offset={-50}>
               <li>Skills</li>
             </Link>
-            <Link to="projects" smooth={true} offset={-60}>
+            <Link to="projects" smooth={true} offset={-50}>
               <li>Projects</li>
             </Link>
-            <Link to="contact" smooth={true}>
+            <Link to="contact" smooth={true} offset={-100}>
               <li>Contact</li>
             </Link>
           </ul>
