@@ -28,7 +28,11 @@ export function Projects() {
                   style={{ width: "21rem", height: "30rem" }}
                   className={style.projectCard}
                 >
-                  <Card.Img variant="top" src={`${projects.img}`} />
+                  <Card.Img
+                    variant="top"
+                    src={`${projects.img}`}
+                    className={style.cardImg}
+                  />
                   <Card.Body>
                     <Card.Title>{projects.project}</Card.Title>
                     <Card.Text style={{ height: "7.5em" }}>

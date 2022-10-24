@@ -37,6 +37,10 @@
   gap: 50px;
 }
 
+.cardImg {
+  border-bottom: solid 1px #d3d3d3;
+}
+
 /* Fade In Effects  */
 
 .projectsFadeInLeft {
