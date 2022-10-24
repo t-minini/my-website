@@ -275,52 +275,51 @@
     font-size: 8.5rem;
   }
 
-/* Icons  */
+  /* Icons  */
 
-.reactIcon {
-  bottom: 200px;
-  left: 40px;
+  .reactIcon {
+    bottom: 200px;
+    left: 40px;
+  }
+
+  .bootstrapIcon {
+    top: 130px;
+    left: -40px;
+  }
+
+  .expressIcon {
+    top: -150px;
+    left: 60px;
+  }
+
+  .javascriptIcon {
+    bottom: 100px;
+    left: 40px;
+  }
+
+  .materialuiIcon {
+    top: 50px;
+    left: 120px;
+  }
+
+  .mongodbIcon {
+    bottom: 340px;
+    left: 80px;
+  }
+  .nodeIcon {
+    top: -130px;
+    right: 100px;
+  }
+
+  .githubIcon {
+    top: -60px;
+    right: 30px;
+  }
 }
 
-.bootstrapIcon {
-  top: 130px;
-  left: -40px;
-}
+/* iPhone 11 Pro Max / XR 414 x 896  */
 
-.expressIcon {
-  top: -150px;
-  left: 60px;
-}
-
-.javascriptIcon {
-  bottom: 100px;
-  left: 40px;
-}
-
-.materialuiIcon {
-  top: 50px;
-  left: 120px;
-}
-
-.mongodbIcon {
-  bottom: 340px;
-  left: 80px;
-}
-.nodeIcon {
-  top: -130px;
-  right: 100px;
-}
-
-.githubIcon {
-  top: -60px;
-  right: 30px;
-}
-}
-
-/* iPhone 13 Pro 390 x 844  */
-
-@media (max-width: 390px) {
-
+@media (max-width: 414px) {
   .skillsContainer h2 {
     margin-top: 5px;
     line-height: 3.5rem;
@@ -334,60 +333,220 @@
 
   /* Icons  */
 
-.reactIcon {
-  height: 4rem;
-  bottom: 110px;
-  left: 40px;
+  .reactIcon {
+    height: 4rem;
+    bottom: 110px;
+    left: 40px;
+  }
+
+  .reactIcon:hover {
+    height: 4.3rem;
+  }
+
+  .bootstrapIcon {
+    height: 4rem;
+    top: 130px;
+    left: -70px;
+  }
+
+  .bootstrapIcon:hover {
+    height: 4.3rem;
+  }
+  .cssIcon {
+    height: 4.5rem;
+    top: -10px;
+    left: 20px;
+  }
+
+  .cssIcon:hover {
+    height: 4.8rem;
+  }
+
+  .expressIcon {
+    height: 4rem;
+    top: -130px;
+    left: 50px;
+  }
+
+  .expressIcon:hover {
+    height: 4.3rem;
+  }
+
+  .javascriptIcon {
+    height: 4rem;
+    bottom: -30px;
+    left: 30px;
+  }
+
+  .javascriptIcon:hover {
+    height: 4.3rem;
+  }
+
+  .materialuiIcon {
+    height: 3.5rem;
+    top: 150px;
+    left: 120px;
+  }
+
+  .materialuiIcon:hover {
+    height: 3.8rem;
+  }
+
+  .mongodbIcon {
+    height: 3.5rem;
+    bottom: 230px;
+    left: 30px;
+  }
+
+  .mongodbIcon:hover {
+    height: 3.8rem;
+  }
+
+  .nodeIcon {
+    height: 2rem;
+    top: -100px;
+    right: 90px;
+  }
+
+  .nodeIcon:hover {
+    height: 2.3rem;
+  }
+
+  .githubIcon {
+    height: 3.5rem;
+    top: 10px;
+    right: 40px;
+  }
+
+  .githubIcon:hover {
+    height: 3.8rem;
+  }
+
+  .htmlIcon {
+    height: 4rem;
+    top: 80px;
+    right: 20px;
+  }
+
+  .htmlIcon:hover {
+    height: 4.3rem;
+  }
 }
 
-.bootstrapIcon {
-  height: 4rem;
-  top: 130px;
-  left: -70px;
-}
-.cssIcon {
-  height: 4.5rem;
-  top: -10px;
-  left: 20px;
+
+/* iPhone 12 Pro / 13 Pro 390 x 844  */
+
+@media (max-width: 390px) {
+  .skillsContainer h2 {
+    margin-top: 5px;
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+    padding-right: 0px;
+  }
+  .parallax {
+    height: 85vh;
+    margin-top: 10px;
+  }
+
+  /* Icons  */
+
+  .reactIcon {
+    height: 4rem;
+    bottom: 110px;
+    left: 40px;
+  }
+
+  .reactIcon:hover {
+    height: 4.3rem;
+  }
+
+  .bootstrapIcon {
+    height: 4rem;
+    top: 130px;
+    left: -70px;
+  }
+
+  .bootstrapIcon:hover {
+    height: 4.3rem;
+  }
+  .cssIcon {
+    height: 4.5rem;
+    top: -10px;
+    left: 20px;
+  }
+
+  .cssIcon:hover {
+    height: 4.8rem;
+  }
+
+  .expressIcon {
+    height: 4rem;
+    top: -130px;
+    left: 50px;
+  }
+
+  .expressIcon:hover {
+    height: 4.3rem;
+  }
+
+  .javascriptIcon {
+    height: 4rem;
+    bottom: -30px;
+    left: 30px;
+  }
+
+  .javascriptIcon:hover {
+    height: 4.3rem;
+  }
+
+  .materialuiIcon {
+    height: 3.5rem;
+    top: 150px;
+    left: 120px;
+  }
+
+  .materialuiIcon:hover {
+    height: 3.8rem;
+  }
+
+  .mongodbIcon {
+    height: 3.5rem;
+    bottom: 230px;
+    left: 30px;
+  }
+
+  .mongodbIcon:hover {
+    height: 3.8rem;
+  }
+
+  .nodeIcon {
+    height: 2rem;
+    top: -100px;
+    right: 90px;
+  }
+
+  .nodeIcon:hover {
+    height: 2.3rem;
+  }
+
+  .githubIcon {
+    height: 3.5rem;
+    top: 10px;
+    right: 40px;
+  }
+
+  .githubIcon:hover {
+    height: 3.8rem;
+  }
+
+  .htmlIcon {
+    height: 4rem;
+    top: 80px;
+    right: 20px;
+  }
+
+  .htmlIcon:hover {
+    height: 4.3rem;
+  }
 }
 
-.expressIcon {
-  height: 4rem;
-  top: -130px;
-  left: 20px;
-}
-
-.javascriptIcon {
-  height: 4rem;
-  bottom: -30px;
-  left: 30px;
-}
-
-.materialuiIcon {
-  height: 3rem;
-  top: 120px;
-  left: 120px;
-}
-
-.mongodbIcon {
-  height: 3.5rem;
-  bottom: 230px;
-  left: 30px;
-}
-.nodeIcon {
-  height:2rem;
-  top: -100px;
-  right: 90px;
-}
-
-.githubIcon {
-  height: 3.5rem;
-  top: 10px;
-  right: 40px;
-}
-.htmlIcon {
-  height: 4rem;
-  top: 80px;
-  right: 20px;
-}
-}

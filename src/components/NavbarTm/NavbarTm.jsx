@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import style from "./Navbar.module.css";
+import style from "./NavbarTm.module.css";
 
 // Bootstrap
 import Nav from "react-bootstrap/Nav";
@@ -14,6 +14,7 @@ export function NavbarTm() {
           backgroundColor: "rgb(128, 128, 128, 0.1)",
           position: "fixed",
           width: "100%",
+          padding: "0",
         }}
         expand="lg"
         sticky="top"
@@ -28,7 +29,6 @@ export function NavbarTm() {
           <Link
             className="me-auto my-2 my-lg-0"
             to="hello"
-            
             style={{ textDecoration: "none" }}
           >
             <Navbar.Brand className={style.tm}>
@@ -40,33 +40,50 @@ export function NavbarTm() {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="ms-auto my-2 my-lg-0"
-              style={{ fontSize: "1.2rem", marginRight: "20px" }}
+              style={{ fontSize: "1.2rem" }}
               navbarScroll
             >
               <Link
                 to="aboutMe"
                 offset={-60}
-                style={{ marginRight: "20px" }}
+                style={{ textAlign: "right", textDecoration: "none" }}
+                className={style.navLink}
               >
                 About
               </Link>
               <Link
                 to="skills"
-                
                 offset={-60}
-                style={{ marginRight: "20px" }}
+                style={{
+                  marginLeft: "30px",
+                  textAlign: "right",
+                  textDecoration: "none",
+                }}
+                className={style.navLink}
               >
                 Skills
               </Link>
               <Link
                 to="projects"
-                
                 offset={-60}
-                style={{ marginRight: "20px" }}
+                style={{
+                  marginLeft: "30px",
+                  textAlign: "right",
+                  textDecoration: "none",
+                }}
+                className={style.navLink}
               >
                 Projects
               </Link>
-              <Link to="contact">
+              <Link
+                to="contact"
+                style={{
+                  marginLeft: "30px",
+                  textAlign: "right",
+                  textDecoration: "none",
+                }}
+                className={style.navLink}
+              >
                 Contact
               </Link>
             </Nav>

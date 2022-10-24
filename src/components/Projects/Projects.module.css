@@ -10,7 +10,7 @@
   font-size: 9.375rem;
   line-height: 7.5rem;
   font-weight: 300;
-  padding-left: 50px;
+  /* padding-left: -20px; */
   letter-spacing: 0.9375rem;
   margin: 0;
   color: #0a2463;
@@ -19,6 +19,7 @@
 .projectsCards {
   overflow-x: auto;
   margin-top: 45px;
+  margin-left: 15px;
   width: 100%;
   background-color: #fffaff;
   display: flex;
@@ -167,6 +168,31 @@
   }
 }
 
+/* iPhone 11 Pro Max / XR 414 x 896  */
+
+@media (max-width: 414px) {
+  .projectsContainer {
+    padding: 0;
+    height: fit-content;
+    padding: 0 0 45px 30px;
+  }
+  .projectsContainer h2 {
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+  }
+
+  .projectsCards {
+    width:385px;
+    padding: 0px;
+  }
+  .projects {
+    height: 400px;
+    width: 240px;
+    padding: 20px;
+    margin: 15px;
+  }
+}
+
 /* iPhone 13 Pro 390 x 844  */
 
 @media (max-width: 390px) {
@@ -178,7 +204,6 @@
   .projectsContainer h2 {
     line-height: 3.5rem;
     font-size: 3.5rem;
-    /* padding-left: 15px; */
   }
 
   .projectsCards {

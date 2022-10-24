@@ -64,6 +64,27 @@
   }
 }
 
+/* iPhone 11 Pro Max / XR 414 x 896  */
+
+@media (max-width: 414px) {
+  .contactContainer {
+    height: fit-content;
+    padding: 25px 20px;
+  }
+  .contactContainer p {
+    font-size: 0.9rem;
+    margin: 0px auto;
+    width: 95%;
+  }
+
+  .contactIcons {
+    margin: 20px 0;
+  }
+  .contactIcons img {
+    width: 30px;
+  }
+}
+
 /* iPhone 13 Pro 390 x 844  */
 
 @media (max-width: 390px) {
@@ -78,7 +99,7 @@
   }
 
   .contactIcons {
-margin: 15px 0;
+    margin: 15px 0;
   }
   .contactIcons img {
     width: 30px;

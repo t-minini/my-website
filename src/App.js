@@ -1,7 +1,7 @@
 import style from "./App.module.css";
 
 import { Hello } from "./components/Hello/Hello";
-import { NavbarTm } from "./components/Navbar/Navbar";
+import { NavbarTm } from "./components/NavbarTm/NavbarTm";
 import { Skills } from "./components/Skills/Skills";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Projects } from "./components/Projects/Projects";

@@ -16,3 +16,16 @@
 .spanM:hover {
   font-weight: lighter;
 }
+
+.navLink {
+  color: black;
+}
+.navLink:hover {
+  cursor: pointer;
+  color: #fffaff;
+}
+
+.navbar-toggler-icon {
+  height: 100px;
+  width: 100px; 
+} 

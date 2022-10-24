@@ -77,10 +77,9 @@
     padding-left: 30px;
   }
 }
+/* iPhone 11 Pro Max / XR 414 x 896  */
 
-/* iPhone 13 Pro 390 x 844  */
-
-@media (max-width: 390px) {
+@media (max-width: 414px) {
   .helloContainer {
     height: 100vh;
   }
@@ -91,7 +90,29 @@
   .helloContainer h1 {
     letter-spacing: 1.4rem;
     padding-left: 0;
-    font-size: 4rem;
+    font-size: 4.6rem;
+  }
+  .helloContainer h3 {
+    letter-spacing: 0.4rem;
+    padding-left: 0;
+    font-size: 1.4rem;
+  }
+}
+
+/* iPhone 12 Pro / 13 Pro 390 x 844  */
+
+@media (max-width: 390px) {
+  .helloContainer {
+    height: 100vh;
+  }
+  .helloContainer h2 {
+    padding-left: 0;
+    font-size: 2.2rem;
+  }
+  .helloContainer h1 {
+    letter-spacing: 1.3rem;
+    padding-left: 0;
+    font-size: 4.2rem;
   }
   .helloContainer h3 {
     letter-spacing: 0.4rem;
