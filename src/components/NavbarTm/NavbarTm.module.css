@@ -22,10 +22,5 @@
 }
 .navLink:hover {
   cursor: pointer;
-  color: #fffaff;
+  color: #a0a0a0;
 }
-
-.navbar-toggler-icon {
-  height: 100px;
-  width: 100px; 
-} 

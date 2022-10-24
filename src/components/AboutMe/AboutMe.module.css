@@ -1,7 +1,7 @@
 .aboutContainer {
   background-color: #fffaff;
   height: fit-content;
-  padding: 0 0 45px 40px;
+  padding: 0 30px 45px 30px;
   width: 100%;
 }
 
@@ -19,7 +19,7 @@
   visibility: hidden;
   font-size: 1.3125rem;
   width: 60%;
-  margin-left: 50px;
+  margin: auto;
   margin-bottom: 0;
   color: #0a2463;
 }
@@ -158,6 +158,7 @@
   .aboutContainer h2 {
     line-height: 10rem;
     font-size: 8.5rem;
+    padding-left: 30px;
   }
 
   .aboutContainer p {
@@ -188,10 +189,10 @@
     line-height: 3.5rem;
     font-size: 3.5rem;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 10px;
   }
   .aboutContainer p {
-    width: 80%;
+    width: 90%;
     font-size: 1rem;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -218,10 +219,10 @@
     line-height: 3.5rem;
     font-size: 3.5rem;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 10px;
   }
   .aboutContainer p {
-    width: 80%;
+    width: 90%;
     font-size: 1rem;
     margin-bottom: 10px;
     margin-left: 0px;

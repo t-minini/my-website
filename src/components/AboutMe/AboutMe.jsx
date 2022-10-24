@@ -13,7 +13,7 @@ export function AboutMe() {
           ref={aboutMeRef}
           className={`${aboutMeIsVisible ? style.helloFadeInLeft : ""}`}
         >
-          About Me
+          About
         </h2>
         <article className={style.textAndImgContainer}>
           <p className={`${aboutMeImgIsVisible ? style.helloFadeInLeft : ""}`}>

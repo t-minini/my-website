@@ -24,6 +24,7 @@ export function NavbarTm() {
           style={{
             display: "flex",
             justifyContent: "flex-end",
+            paddingRight: "30px"
           }}
         >
           <Link
@@ -40,13 +41,13 @@ export function NavbarTm() {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="ms-auto my-2 my-lg-0"
-              style={{ fontSize: "1.2rem" }}
+              style={{ fontSize: "1.4rem", paddingTop: "5px", paddingBottom: "5px" }}
               navbarScroll
             >
               <Link
                 to="aboutMe"
                 offset={-60}
-                style={{ textAlign: "right", textDecoration: "none" }}
+                style={{ textAlign: "right", textDecoration: "none"}}
                 className={style.navLink}
               >
                 About
