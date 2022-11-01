@@ -4,8 +4,8 @@
     "img": "/images/where-to-go.jpg",
     "project": "Where to Go?",
     "description": "E-commerce in the travel service area, focused on those looking for an experience beyond the standard packages offered by travel agencies.",
-    "github": "https://github.com/t-minini/project-three-front-end",
-    "website": "https://project-three-where-to-go.netlify.app/"
+    "github": "https://github.com/t-minini/where-to-go-front",
+    "website": "https://wheretogo-tm.netlify.app/"
   },
   {
     "id": "002",
