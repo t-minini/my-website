@@ -24,7 +24,6 @@ export function NavbarTm() {
           style={{
             display: "flex",
             justifyContent: "flex-end",
-            paddingRight: "30px"
           }}
         >
           <Link
@@ -41,13 +40,13 @@ export function NavbarTm() {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="ms-auto my-2 my-lg-0"
-              style={{ fontSize: "1.4rem", paddingTop: "5px", paddingBottom: "5px" }}
+              style={{ fontSize: "1.5rem", paddingTop: "5px", paddingBottom: "5px" }}
               navbarScroll
             >
               <Link
                 to="aboutMe"
                 offset={-60}
-                style={{ textAlign: "right", textDecoration: "none"}}
+                style={{ textAlign: "right", textDecoration: "none", marginRight: "10px"}}
                 className={style.navLink}
               >
                 About
@@ -57,6 +56,7 @@ export function NavbarTm() {
                 offset={-60}
                 style={{
                   marginLeft: "30px",
+                  marginRight: "10px",
                   textAlign: "right",
                   textDecoration: "none",
                 }}
@@ -69,6 +69,7 @@ export function NavbarTm() {
                 offset={-60}
                 style={{
                   marginLeft: "30px",
+                  marginRight: "10px",
                   textAlign: "right",
                   textDecoration: "none",
                 }}
@@ -80,6 +81,7 @@ export function NavbarTm() {
                 to="contact"
                 style={{
                   marginLeft: "30px",
+                  marginRight: "10px",
                   textAlign: "right",
                   textDecoration: "none",
                 }}

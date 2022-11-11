@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./BackToTop.module.css";
 import { useEffect, useState } from "react";
-import arrow from "./../../assets/images/arrow-up.svg"
+import arrowUp from "./../../assets/images/arrow-up-circle-fill.svg"
 
 export function BackToTop() {
   const [backToTopBtn, setBackToTopBtn] = useState(false);
@@ -25,7 +25,7 @@ export function BackToTop() {
     <div>
       {backToTopBtn && (
         <button className={style.backToTop} onClick={scrollUp}>
-          <img src={arrow} alt="Bootstrap" width="30" height="30" title="Back to Top"/>
+          <img src={arrowUp} alt="Bootstrap" width="50" height="50" title="Back to Top"/>
         </button>
       )}
     </div>

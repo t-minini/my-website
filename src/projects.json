@@ -12,7 +12,7 @@
     "img": "/images/concerts-database.jpg",
     "project": "Concert's Database",
     "description": "Website created to simulate a personal concert database, inspired by my passion for music and live concerts. The goal is to keep track of the shows I've been to.",
-    "github": "https://github.com/t-minini/project-two-react-application",
+    "github": "https://github.com/t-minini/concert-database",
     "website": "https://concert-database.netlify.app/"
   },
   {
