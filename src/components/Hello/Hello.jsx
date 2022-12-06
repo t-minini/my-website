@@ -7,7 +7,7 @@ export function Hello() {
         <section className={style.helloContent}>
           <h2>Hello, I am</h2>
           <h1> TULIO MININI,</h1>
-          <h3>Full-stack Developer</h3>
+          <h3>Front-end Developer</h3>
         </section>
       </header>
     </>

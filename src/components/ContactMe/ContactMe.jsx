@@ -14,8 +14,7 @@ export function ContactMe() {
           <p>
             "If you would like to get in touch to discuss a job opportunity, or
             which saga is better - Star Wars or Star Trek, or even exchange cats
-            memes, feel free to contact me through my email or profiles on
-            LinkedIn and GitHub.""
+            memes, feel free to contact me through my email or LinkedIn."
           </p>
 
           <figure className={style.contactIcons}>
