@@ -4,7 +4,7 @@
 
 Website to display my professional information such as resume, skills, projects developed, link to socials and contact info.
 
-You can access the website through this [link!](https://tulio-minini-v1.netlify.app/)
+You can access the website through this [link!](https://tuliominini.com/)
 
 ## Tools Used 🛠
 
