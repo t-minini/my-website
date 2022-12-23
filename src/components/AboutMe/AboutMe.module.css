@@ -1,5 +1,5 @@
 .aboutContainer {
-  background-color: #fffaff;
+  background-color: var(--color3-light);
   height: fit-content;
   padding: 0 30px 45px 30px;
   width: 100%;
@@ -12,7 +12,7 @@
   font-weight: 300;
   letter-spacing: 0.9375rem;
   margin: 0;
-  color: #0a2463;
+  color: var(--color1-dark);
 }
 
 .aboutContainer p {
@@ -21,7 +21,7 @@
   width: 60%;
   margin: auto;
   margin-bottom: 0;
-  color: #0a2463;
+  color: var(--color1-dark);
 }
 
 .textAndImgContainer {

@@ -12,9 +12,9 @@ export function ContactMe() {
       <footer id="contact" className={style.contactContainer}>
         <article className={style.contactContent}>
           <p>
-            "If you would like to get in touch to discuss a job opportunity, or
+            If you would like to get in touch to discuss a job opportunity, or
             which saga is better - Star Wars or Star Trek, or even exchange cats
-            memes, feel free to contact me through my email or LinkedIn."
+            memes, feel free to contact me through my email or LinkedIn.
           </p>
 
           <figure className={style.contactIcons}>

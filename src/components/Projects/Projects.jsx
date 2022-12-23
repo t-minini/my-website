@@ -2,10 +2,6 @@ import style from "./Projects.module.css";
 import projects from "./../../projects.json";
 import { useInView } from "react-intersection-observer";
 
-// Bootstrap Components
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-
 export function Projects() {
   const { ref: projectsRef, inView: projectsIsVisible } = useInView();
 
@@ -17,26 +13,15 @@ export function Projects() {
         </h2>
         <div
           ref={projectsRef}
-          className={`${style.projectsCards} ${
+          className={`${style.cardsContainer} ${
             projectsIsVisible ? style.projectsFadeInRight : ""
           }`}
         >
           {projects.map((projects) => {
             return (
               <div key={projects.id} className={style.card}>
-                {/* <Card
-                  style={{ width: "21rem", height: "30rem" }}
-                  className={style.projectCard}
-                > */}
-                  {/* <Card.Img
-                    variant="top"
-                    src={`${projects.img}`}
-                    className={style.cardImg}
-                  /> */}
-
                   <img src={`${projects.img}`} className={style.cardImg} alt=""/>
-                  <div className={style.card_body}>
-                    {/* <Card.Title>{projects.project}</Card.Title> */}
+                  <div className={style.cardBody}>
                     <h5>{projects.project}</h5>
                     <div className={style.cardBtns}>
                       <a
@@ -59,7 +44,6 @@ export function Projects() {
                       </a>
                     </div>
                   </div>
-                {/* </Card> */}
               </div>
             );
           })}

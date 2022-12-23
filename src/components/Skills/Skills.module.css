@@ -1,5 +1,5 @@
 .skillsContainer {
-  background-color: #274c77;
+  background-color: var(--color1-dark);
   height: 90vh;
   width: 100%;
 }
@@ -25,7 +25,7 @@
   font-weight: 300;
   letter-spacing: 0.9375rem;
   margin: 0;
-  color: #fffaff;
+  color: var(--white);
 }
 
 /* Icons  */

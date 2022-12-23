@@ -1,7 +1,7 @@
 .contactContainer {
   height: max-content;
   padding: 30px 30px;
-  background-color: #274c77;
+  background-color: var(--color1-dark);
 }
 
 .contactContent p {
@@ -9,7 +9,7 @@
   text-align: center;
   width: 70%;
   margin: 0px auto;
-  color: #fffaff;
+  color: var(--white);
 }
 
 .contactIcons {
@@ -26,11 +26,7 @@
   text-align: center;
   margin: auto;
   margin-top: 1%;
-  color: #fffaff;
-}
-
-.githubIcon {
-  color: #cfcfcf;
+  color: var(--white);
 }
 
 /* iPad Air 820 x 1180  */

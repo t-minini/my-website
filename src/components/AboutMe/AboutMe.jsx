@@ -17,7 +17,7 @@ export function AboutMe() {
         </h2>
         <article className={style.textAndImgContainer}>
           <p className={`${aboutMeImgIsVisible ? style.helloFadeInLeft : ""}`}>
-            "Hello, my name is Tulio Minini, a former interior designer who
+            Hey! My name is Tulio Minini, a former interior designer who
             discovered his passion for web development. <br />
             <br />
             In August 2022, I graduated from a full-time intensive Full-stack
@@ -33,7 +33,7 @@ export function AboutMe() {
             cats, travelling, and attending concerts, and I am a big fan of Star
             Wars AND Star Trek (both are amazing). I feel comfortable, happy and
             safe when surrounded by kind and good-hearted people who want to
-            make the world a better place."
+            make the world a better place.
           </p>
           <img
             ref={aboutMeImgRef}

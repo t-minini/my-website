@@ -14,7 +14,6 @@ export function NavbarTm() {
           backgroundColor: "rgb(128, 128, 128, 0.1)",
           position: "fixed",
           width: "100%",
-          padding: "0",
         }}
         expand="lg"
         sticky="top"

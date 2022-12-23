@@ -1,8 +1,6 @@
 .projectsContainer {
-  background-color: #fffaff;
+  background-color: var(--color3-light);
   height: fit-content;
-  /* width: 100%; */
-  /* padding: 0 0 45px 40px; */
   padding-bottom: 40px;
 }
 
@@ -14,15 +12,12 @@
   padding-left: 40px;
   letter-spacing: 0.9375rem;
   margin: 0;
-  color: #0a2463;
+  color: var(--color1-dark);
 }
 
-.projectsCards {
-  /* overflow-x: auto; */
+.cardsContainer {
   margin-top: 45px;
-  /* margin-left: 15px; */
-  /* width: 100%; */
-  background-color: #fffaff;
+  background-color: var(--color3-light);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -31,38 +26,28 @@
   gap: 20px;
 }
 
-.projectsCards::after {
-  content: "";
-  margin: 10px;
-  width: 62%;
-}
-
 .card {
-  /* margin: 0 20px 0 0; */
-  width: 30%;
+  width: 350px;
   height: 100%;
-  border: 1px solid black;
   border-radius: 0px 0px 20px 20px;
-  /* display: grid;
-  grid-template-rows: 1fr 1fr; */
+  background-color: var(--color1-dark);
 }
 
 .cardImg {
-  /* border-bottom: solid 1px rgb(211, 211, 211); */
-  display: block;
   width: 100%;
   height: 230px;
-  object-fit: cover;
-  /* height: 200px; */
+  object-fit:cover;
+  border: 10px solid var(--color1-dark);
 }
 
-.card_body {
+.cardBody {
   display: grid;
   grid-template-rows: 1.5fr 1fr;
 }
 
-.card_body h5 {
-  font-size:35px;
+.cardBody h5 {
+  color: var(--white);
+  font-size: 35px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -76,16 +61,15 @@
 .btn {
   width: 130px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   font-size: 21px;
   padding: 10px;
 }
 
 .btn:hover {
-  background-color: #274c77;
+  background-color: var(--color2-medium);
   color: #fffaff;
 }
-
 
 /* Fade In Effects  */
 
@@ -204,8 +188,7 @@
     padding: 0 30px;
     max-width: 100vw;
     height: fit-content;
-    padding: 0 0 45px 45px;
-
+    padding-bottom: 45px;
   }
   .projectsContainer h2 {
     padding-left: 0;
@@ -214,7 +197,7 @@
     font-size: 8.5rem;
   }
   .projectsCards {
-    width:775px;
+    width: 775px;
   }
 }
 
@@ -223,7 +206,7 @@
 @media (max-width: 414px) {
   .projectsContainer {
     height: fit-content;
-    padding: 0 0 45px 10px;
+    padding-bottom: 45px;
   }
   .projectsContainer h2 {
     line-height: 3.5rem;
@@ -232,7 +215,7 @@
   }
 
   .projectsCards {
-    width:385px;
+    width: 385px;
     padding: 0px;
     text-align: left;
   }
@@ -249,7 +232,7 @@
 @media (max-width: 390px) {
   .projectsContainer {
     height: fit-content;
-    padding: 0 0 45px 10px;
+    padding-bottom: 45px;
   }
   .projectsContainer h2 {
     line-height: 3.5rem;
@@ -257,7 +240,7 @@
   }
 
   .projectsCards {
-    width:360px;
+    width: 360px;
     padding: 0px;
   }
   .projects {
