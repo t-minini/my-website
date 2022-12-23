@@ -1,9 +1,16 @@
+:root {
+  --color1: #3d5a80;
+  --color2: #98c1d9;
+  --color3: #e0fbfc;
+  --white: #ffffff;
+}
+
 * {
-    font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing: 1.5px;
-    max-width: 100vw;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 1.5px;
+  max-width: 100vw;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }

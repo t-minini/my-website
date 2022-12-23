@@ -23,43 +23,43 @@ export function Projects() {
         >
           {projects.map((projects) => {
             return (
-              <div key={projects.id}>
-                <Card
+              <div key={projects.id} className={style.card}>
+                {/* <Card
                   style={{ width: "21rem", height: "30rem" }}
                   className={style.projectCard}
-                >
-                  <Card.Img
+                > */}
+                  {/* <Card.Img
                     variant="top"
                     src={`${projects.img}`}
                     className={style.cardImg}
-                  />
-                  <Card.Body>
-                    <Card.Title>{projects.project}</Card.Title>
-                    <Card.Text style={{ height: "7.5em" }}>
-                      {projects.description}
-                    </Card.Text>
-                    <div className={style.cardBtn}>
+                  /> */}
+
+                  <img src={`${projects.img}`} className={style.cardImg} alt=""/>
+                  <div className={style.card_body}>
+                    {/* <Card.Title>{projects.project}</Card.Title> */}
+                    <h5>{projects.project}</h5>
+                    <div className={style.cardBtns}>
                       <a
                         href={projects.github}
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <Button className={style.btn} variant="outline-dark">
+                        <button className={style.btn}>
                           GitHub
-                        </Button>
+                        </button>
                       </a>
                       <a
                         href={projects.website}
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <Button className={style.btn} variant="outline-primary">
+                        <button className={style.btn}>
                           Website
-                        </Button>
+                        </button>
                       </a>
                     </div>
-                  </Card.Body>
-                </Card>
+                  </div>
+                {/* </Card> */}
               </div>
             );
           })}
