@@ -40,5 +40,12 @@
     "project": "My Website",
     "github": "https://github.com/t-minini/my-website",
     "website": "https://tuliominini.com/"
+  },
+  {
+    "id": "007",
+    "img": "/images/modern-art-gallery.jpg",
+    "project": "Modern Art Gallery ",
+    "github": "https://github.com/t-minini/art-gallery-website",
+    "website": "https://modern-art-gallery-tm.netlify.app/"
   }
 ]
